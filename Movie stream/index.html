@@ -1,0 +1,340 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital@0;1&family=Roboto:wght@100;300;400;500&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+  <title>Amovies</title>
+</head>
+<body>
+  <div class="navbar">
+    <div class="navbar-container">
+      <div class="logo-container">
+        <h1 class="logo">Amovies</h1>
+      </div>
+      <div class="menu-container">
+        <ul class="menu-list">
+          <li class="menu-list-item active"> <a href="#"> Home </a></li>
+          <li class="menu-list-item"> <a href="#movies"> Movies </a></li>
+          <li class="menu-list-item"> <a href="#series"> Series </a></li>
+          <li class="menu-list-item"> <a href="#popular"> Popular </a></li>
+          <li class="menu-list-item"> <a href="#trending"> Trends </a></li>
+        </ul>
+      </div>
+      <div class="profile-container">
+        <img src="img/profile.jpg" alt="" class="profile-picture">
+        <div class="profile-text-container">
+          <span class="profile-text">Profile</span>
+          <i class="fas fa-caret-down"></i>
+        </div>
+        <div class="toggle">
+          <i class="fas fa-moon toggle-icons"></i>
+          <i class="fas fa-sun toggle-icon"></i>
+          <div class="toggle-ball"></div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="sidebar">
+    <i class="left-menu-icon fas fa-search"></i>
+    <i class="left-menu-icon fas fa-home"></i>
+    <i class="left-menu-icon fas fa-users"></i>
+    <i class="left-menu-icon fas fa-bookmark"></i>
+    <i class="left-menu-icon fas fa-tv"></i>
+    <i class="left-menu-icon fas fa-hourglass-start"></i>
+    <i class="left-menu-icon fas fa-shopping-cart"></i>
+  </div>
+
+  <div class="container">
+    <div class="content-container">
+      <div class="featured-content">
+        <img src="https://img.sflix.to/xxrz/250x400/224/f8/27/f827eba46057101fdd54ba301eff2a89/f827eba46057101fdd54ba301eff2a89.jpg" alt="" class="featured-title">
+        <p class="featured-desc">
+          Intrepid detective Benoit Blanc finds himself at a lavish private estate on a Greek island, but how and why he comes to be there is only the first of many puzzles. Blanc soon meets a distinctly disparate group of friends gathering at the invitation of billionaire Miles Bron for their yearly reunion. As in all the best murder mysteries, each person harbors their own secrets, lies and motivations. And when someone turns up dead, everyone is a suspect.</p>
+        <button class="featured-button"> <a href="https://sflix.to/movie/free-glass-onion-a-knives-out-mystery-hd-90736">  <i class="fas fa-play"></i> Watch now </a></button>
+
+      </div>
+      <div class="movie-list-container">
+        <h1 class="movie-list-title" id="trending" >Trending</h1>
+        <div class="movie-list-wrapper">
+          <div class="movie-list">
+            <div class="movie-list-item">
+              <img src="https://img.sflix.to/xxrz/250x400/224/1e/c6/1ec694a9d587d509ec7a9be815aacfac/1ec694a9d587d509ec7a9be815aacfac.jpg" alt="" class="movie-list-item-img">
+              <span class="movie-list-item-title">Avatar: The Way of Water</span>
+              <p class="movie-list-item-desc">Set more than a decade after the events of the first film, “Avatar: The Way of Water” begins to tell the story of the Sully family...</p>
+              <button class="movie-list-item-button"> <a href="https://sflix.to/movie/free-avatar-the-way-of-water-hd-79936"> <i class="fas fa-play"></i> Watch now </a></button>
+            </div>
+            <div class="movie-list-item">
+              <img src="https://img.sflix.to/xxrz/250x400/224/9e/f0/9ef076032895d3bd094675fef853426f/9ef076032895d3bd094675fef853426f.jpg" alt="" class="movie-list-item-img">
+              <span class="movie-list-item-title">White Noise</span>
+              <p class="movie-list-item-desc">A professor, husband and father to four is torn asunder by a rail car chemical spill that releases an “Airborne Toxic Event”...</p>
+              <button class="movie-list-item-button"> <a href="https://sflix.to/movie/free-white-noise-hd-91465"><i class="fas fa-play"></i> Watch now </a></button>
+            </div>
+            <div class="movie-list-item">
+              <img src="https://img.sflix.to/xxrz/250x400/224/8c/76/8c76f7ba1f8d85c3c260b7347e1e64cc/8c76f7ba1f8d85c3c260b7347e1e64cc.jpg" alt="" class="movie-list-item-img">
+              <span class="movie-list-item-title">Top Gun: Maverick</span>
+              <p class="movie-list-item-desc">Set in the world of drone technology and fifth generation fighters, this sequel will explore the end of the era of dogfighting.</p>
+              <button class="movie-list-item-button"> <a href="https://sflix.to/movie/free-top-gun-maverick-hd-5448"><i class="fas fa-play"></i> Watch now </a> </button>
+            </div>
+            <div class="movie-list-item">
+              <img src="https://img.sflix.to/xxrz/250x400/224/ae/18/ae18fa0f8a0ecf6199a1952b6e6ee279/ae18fa0f8a0ecf6199a1952b6e6ee279.jpg" alt="" class="movie-list-item-img">
+              <span class="movie-list-item-title">Strange World</span>
+              <p class="movie-list-item-desc">A journey deep into an uncharted and treacherous land, where fantastical creatures await the legendary Clades...</p>
+              <button class="movie-list-item-button"> <a href="https://sflix.to/movie/free-strange-world-hd-90739"> <i class="fas fa-play"></i> Watch now </a></button>
+            </div>
+            <div class="movie-list-item">
+              <img src="https://img.sflix.to/xxrz/250x400/224/94/e7/94e701c976b3e26c330c047c9d7d836a/94e701c976b3e26c330c047c9d7d836a.jpg" alt="" class="movie-list-item-img">
+              <span class="movie-list-item-title">Roald Dahl's Matilda the Musical</span>
+              <p class="movie-list-item-desc">An extraordinary young girl discovers her superpower and summons the remarkable courage, against all odds...</p>
+              <button class="movie-list-item-button"> <a href="https://sflix.to/movie/free-roald-dahls-matilda-the-musical-hd-91756"> <i class="fas fa-play"></i> Watch now </a></button>
+            </div>
+            <div class="movie-list-item">
+              <img src="https://img.sflix.to/xxrz/250x400/224/dd/31/dd31428b33327f67777839b4339f1079/dd31428b33327f67777839b4339f1079.jpg" alt="" class="movie-list-item-img">
+              <span class="movie-list-item-title">Everything Everywhere All at once</span>
+              <p class="movie-list-item-desc">When an interdimensional rupture unravels reality, an unlikely hero must channel her newfound powers...</p>
+              <button class="movie-list-item-button"> <a href="https://sflix.to/movie/free-everything-everywhere-all-at-once-hd-78619"> <i class="fas fa-play"></i> Watch now </a></button>
+            </div>
+            <div class="movie-list-item">
+              <img src="https://img.sflix.to/xxrz/250x400/224/15/1b/151b961f5343bebb7f434f3060079d97/151b961f5343bebb7f434f3060079d97.jpg" alt="" class="movie-list-item-img">
+              <span class="movie-list-item-title">Black Adam</span>
+              <p class="movie-list-item-desc">Nearly 5,000 years after he was bestowed with the almighty powers of the Egyptian gods—and...</p>
+              <button class="movie-list-item-button"> <a href="https://sflix.to/movie/free-black-adam-hd-82087"> <i class="fas fa-play"></i> Watch now </a></button>
+            </div>
+            <div class="movie-list-item">
+              <img src="https://img.sflix.to/xxrz/250x400/224/8b/df/8bdfdc109a1d2ae22a13d8b627e5a1d6/8bdfdc109a1d2ae22a13d8b627e5a1d6.jpg" alt="" class="movie-list-item-img">
+              <span class="movie-list-item-title">Black Panther: Wakanda Forever</span>
+              <p class="movie-list-item-desc">The sequel to Black Panther (2018).</p>
+              <button class="movie-list-item-button"><i class="fas fa-play"></i> Watch now</button>
+            </div>
+            <div class="movie-list-item">
+              <img src="https://img.sflix.to/xxrz/250x400/224/c6/81/c681855ac6df04567df25109a00df859/c681855ac6df04567df25109a00df859.jpg" alt="" class="movie-list-item-img">
+              <span class="movie-list-item-title">Pinocchio</span>
+              <p class="movie-list-item-desc">During the rise of fascism in Mussolini's Italy, a wooden boy brought magically to life...</p>
+              <button class="movie-list-item-button"> <a href="https://sflix.to/movie/free-guillermo-del-toros-pinocchio-hd-91180"> <i class="fas fa-play"></i> Watch now </a></button>
+            </div>
+            <div class="movie-list-item">
+              <img src="https://img.sflix.to/xxrz/250x400/224/cc/ff/ccff5242232b96b36ed22f0a0dda8234/ccff5242232b96b36ed22f0a0dda8234.jpg" alt="" class="movie-list-item-img">
+              <span class="movie-list-item-title">Violent Night</span>
+              <p class="movie-list-item-desc">When a team of mercenaries breaks into a wealthy family compound on Christmas Eve, taking everyone...</p>
+              <button class="movie-list-item-button"> <a href="https://sflix.to/movie/free-violent-night-hd-91333"> <i class="fas fa-play"></i> Watch now </a></button>
+            </div>
+          </div>
+          <i class="fas fa-chevron-right arrow"></i>
+        </div>
+      </div>
+      <div class="movie-list-container">
+        <h1 class="movie-list-title" id="movies" >Latest Movies</h1>
+        <div class="movie-list-wrapper">
+          <div class="movie-list">
+            <div class="movie-list-item">
+              <img src="https://img.sflix.to/xxrz/250x400/224/85/cf/85cfa7ac8cf8606f839b8bef860b7a76/85cfa7ac8cf8606f839b8bef860b7a76.jpg" alt="" class="movie-list-item-img">
+              <span class="movie-list-item-title">The Last Heist</span>
+              <p class="movie-list-item-desc">After a job goes sideways, four thieves bounded by honour meet back at the place it all began, the local boozer. Drink, drugs...</p>
+              <button class="movie-list-item-button"> <a href="https://sflix.to/movie/free-the-last-heist-hd-91996"> <i class="fas fa-play"></i> Watch now </a></button>
+            </div>
+            <div class="movie-list-item">
+              <img src="https://img.sflix.to/xxrz/250x400/224/02/85/02852174f9b970b824b7eab49b50f523/02852174f9b970b824b7eab49b50f523.jpg" alt="" class="movie-list-item-img">
+              <span class="movie-list-item-title">The Menu</span>
+              <p class="movie-list-item-desc">A couple travels to a coastal island to eat at an exclusive restaurant where the chef has prepared...</p>
+              <button class="movie-list-item-button"> <a href="https://sflix.to/movie/free-the-menu-hd-90403"> <i class="fas fa-play"></i> Watch now </a> </button>
+            </div>
+            <div class="movie-list-item">
+              <img src="https://img.sflix.to/xxrz/250x400/224/9d/81/9d81478846a34e80f89e03e5f3325e63/9d81478846a34e80f89e03e5f3325e63.jpg" alt="" class="movie-list-item-img">
+              <span class="movie-list-item-title">The Marriage App</span>
+              <p class="movie-list-item-desc">Tangled in a troubled marriage, a frustrated couple finds hope in a watch-based app that rewards good deeds — until unhealthy...</p>
+              <button class="movie-list-item-button"> <a href="https://sflix.to/movie/free-the-marriage-app-hd-91729"> <i class="fas fa-play"></i> Watch now </a></button>
+            </div>
+            <div class="movie-list-item">
+              <img src="https://img.sflix.to/xxrz/250x400/224/b9/4c/b94c9ef8b80fe5d71e9e4750602d086c/b94c9ef8b80fe5d71e9e4750602d086c.jpg" alt="" class="movie-list-item-img">
+              <span class="movie-list-item-title">Holiday Heritage</span>
+              <p class="movie-list-item-desc">Ella returns to her hometown to mend fences with her fractured family. With the help of Griffin, her ex-boyfriend...</p>
+              <button class="movie-list-item-button"> <a href="https://sflix.to/movie/free-holiday-heritage-hd-91552"> <i class="fas fa-play"></i> Watch now </a></button>
+            </div>
+            <div class="movie-list-item">
+              <img src="https://img.sflix.to/xxrz/250x400/224/4e/56/4e56d050f6d2578f1495dbf348e0becf/4e56d050f6d2578f1495dbf348e0becf.jpg" alt="" class="movie-list-item-img">
+              <span class="movie-list-item-title">High Heat</span>
+              <p class="movie-list-item-desc">When the local mafia shows up to burn down her restaurant, Ana, a chef with a meticulous past, defends her turf...</p>
+              <button class="movie-list-item-button"> <a href="https://sflix.to/movie/free-high-heat-hd-91549"> <i class="fas fa-play"></i> Watch now </a></button>
+            </div>
+            <div class="movie-list-item">
+              <img src="https://img.sflix.to/xxrz/250x400/224/6c/2d/6c2d6bed42fb01cd2cdec4f00d0f620d/6c2d6bed42fb01cd2cdec4f00d0f620d.jpg" alt="" class="movie-list-item-img">
+              <span class="movie-list-item-title">Calendar Girls</span>
+              <p class="movie-list-item-desc">Whether they’re performing at an animal rescue center benefit, a church fundraiser, or a shrimp parade...</p>
+              <button class="movie-list-item-button"> <a href="https://sflix.to/movie/free-calendar-girls-hd-91951"> <i class="fas fa-play"></i> Watch now </a></button>
+            </div>
+            <div class="movie-list-item">
+              <img src="https://img.sflix.to/xxrz/250x400/224/88/06/8806c59f754f52053f1f688e34c4ea81/8806c59f754f52053f1f688e34c4ea81.jpg" alt="" class="movie-list-item-img">
+              <span class="movie-list-item-title">A Christmas Gift</span>
+              <p class="movie-list-item-desc">Follows single mother Roz McKenzie, who calls upon a miracle in order to survive Christmas with her daughter.</p>
+              <button class="movie-list-item-button"> <a href="https://sflix.to/movie/free-a-christmas-gift-hd-91939"> <i class="fas fa-play"></i> Watch now </a></button>
+            </div>
+            <div class="movie-list-item">
+              <img src="https://img.sflix.to/xxrz/250x400/224/4f/38/4f38764aca71e39fac72bc03538bb9a1/4f38764aca71e39fac72bc03538bb9a1.jpg" alt="" class="movie-list-item-img">
+              <span class="movie-list-item-title">Catfish Killer</span>
+              <p class="movie-list-item-desc">Hannah is thrilled with how her senior year in high school is going. Her best friends always by her...</p>
+              <button class="movie-list-item-button"> <a href="https://sflix.to/movie/free-catfish-killer-hd-91954"> <i class="fas fa-play"></i> Watch now </a> </button>
+            </div>
+            <div class="movie-list-item">
+              <img src="https://img.sflix.to/xxrz/250x400/224/2f/8b/2f8bafa023aec6566ec75083e44e04c4/2f8bafa023aec6566ec75083e44e04c4.jpg" alt="" class="movie-list-item-img">
+              <span class="movie-list-item-title">Platinum</span>
+              <p class="movie-list-item-desc">A mysterious man arrives in Houston, and gets the opportunity of a lifetime, when Ice, a pretty...</p>
+              <button class="movie-list-item-button"> <a href="https://sflix.to/movie/free-platinum-hd-91981"> <i class="fas fa-play"></i> Watch now </a></button>
+            </div>
+            <div class="movie-list-item">
+              <img src="https://img.sflix.to/xxrz/250x400/224/08/63/0863ac6b41603afe707884674b451586/0863ac6b41603afe707884674b451586.jpg" alt="" class="movie-list-item-img">
+              <span class="movie-list-item-title">The Holiday Stocking</span>
+              <p class="movie-list-item-desc">RJ is a new angel, who is given the chance to address his one regret, that he didn’t help his sisters reconcile while he was...</p>
+              <button class="movie-list-item-button"> <a href="https://sflix.to/movie/free-the-holiday-stocking-hd-91993"> <i class="fas fa-play"></i> Watch now </a></button>
+            </div>
+          </div>
+          <i class="fas fa-chevron-right arrow"></i>
+        </div>
+      </div>
+      <div class="movie-list-container">
+        <h1 class="movie-list-title" id="series" >Latest TV Shows</h1>
+        <div class="movie-list-wrapper">
+          <div class="movie-list">
+            <div class="movie-list-item">
+              <img src="https://img.sflix.to/xxrz/250x400/224/db/33/db33420bffb9e7f6424c103ebe06424d/db33420bffb9e7f6424c103ebe06424d.jpg" alt="" class="movie-list-item-img">
+              <span class="movie-list-item-title">Willow</span>
+              <p class="movie-list-item-desc">Years after the events of the original “Willow” film, this series introduces all-new characters to the...</p>
+              <button class="movie-list-item-button"> <a href="https://sflix.to/tv/free-willow-hd-81505"> <i class="fas fa-play"></i> Watch now </a></button>
+            </div>
+            <div class="movie-list-item">
+              <img src="https://img.sflix.to/xxrz/250x400/224/ed/63/ed632238a9e1c60de3f5ce2b3e8cd9ab/ed632238a9e1c60de3f5ce2b3e8cd9ab.jpg" alt="" class="movie-list-item-img">
+              <span class="movie-list-item-title">Big Sky</span>
+              <p class="movie-list-item-desc">Private detective Cassie Dewell partners with ex-cop Jenny Hoyt on a search for two sisters who have been kidnapped by...</p>
+              <button class="movie-list-item-button"> <a href="https://sflix.to/tv/free-big-sky-hd-65118"> <i class="fas fa-play"></i> Watch now </a></button>
+            </div>
+            <div class="movie-list-item">
+              <img src="https://img.sflix.to/xxrz/250x400/224/e3/77/e377479132b418253304b4963dc1a524/e377479132b418253304b4963dc1a524.jpg" alt="" class="movie-list-item-img">
+              <span class="movie-list-item-title">Pretty Hard Cases</span>
+              <p class="movie-list-item-desc">A fun and honest portrayal of two radically different female detectives in their early 40s following Guns and Gangs...</p>
+              <button class="movie-list-item-button"> <a href="https://sflix.to/tv/free-pretty-hard-cases-hd-67713"> <i class="fas fa-play"></i> Watch now </a></button>
+            </div>
+            <div class="movie-list-item">
+              <img src="https://img.sflix.to/xxrz/250x400/224/42/6f/426f1469a723d62f94a8b6a891ccd4d9/426f1469a723d62f94a8b6a891ccd4d9.jpg" alt="" class="movie-list-item-img">
+              <span class="movie-list-item-title">Home Economics</span>
+              <p class="movie-list-item-desc">The heartwarming yet uncomfortable relationship between three adult siblings: one in the 1%...</p>
+              <button class="movie-list-item-button"> <a href="https://sflix.to/tv/free-home-economics-hd-69201"> <i class="fas fa-play"></i> Watch now </a></button>
+            </div>
+            <div class="movie-list-item">
+              <img src="https://img.sflix.to/xxrz/250x400/224/5e/97/5e974a2250f03c56e0fd21a93beb148e/5e974a2250f03c56e0fd21a93beb148e.jpg" alt="" class="movie-list-item-img">
+              <span class="movie-list-item-title">The Resident</span>
+              <p class="movie-list-item-desc">A tough, brilliant senior resident guides an idealistic young doctor through his first day, pulling back the curtain on what...</p>
+              <button class="movie-list-item-button"> <a href="https://sflix.to/tv/free-the-resident-hd-39436"> <i class="fas fa-play"></i> Watch now </a></button>
+            </div>
+            <div class="movie-list-item">
+              <img src="https://img.sflix.to/xxrz/250x400/224/38/96/38965a95f26c271035913b2916859da0/38965a95f26c271035913b2916859da0.jpg" alt="" class="movie-list-item-img">
+              <span class="movie-list-item-title">FBI: Most Wanted</span>
+              <p class="movie-list-item-desc">The Fugitive Task Force relentlessly tracks and captures the notorious criminals on the Bureau’s Most Wanted...</p>
+              <button class="movie-list-item-button"> <a href="https://sflix.to/tv/free-fbi-most-wanted-hd-59083"><i class="fas fa-play"></i> Watch now </a> </button>
+            </div>
+            <div class="movie-list-item">
+              <img src="https://img.sflix.to/xxrz/250x400/224/bb/9a/bb9a8fc97651fd904aae5d54225e4e6c/bb9a8fc97651fd904aae5d54225e4e6c.jpg" alt="" class="movie-list-item-img">
+              <span class="movie-list-item-title">Teen Mom: Family Reunion</span>
+              <p class="movie-list-item-desc">Follows some moms from the Teen Mom franchise come together for a family reunion to connect with one another...</p>
+              <button class="movie-list-item-button"> <a href="https://sflix.to/tv/free-teen-mom-family-reunion-hd-76354"> <i class="fas fa-play"></i> Watch now </a></button>
+            </div>
+            <div class="movie-list-item">
+              <img src="https://img.sflix.to/xxrz/250x400/224/b1/f7/b1f749f252c09787cf674cc6a0cecff0/b1f749f252c09787cf674cc6a0cecff0.jpg" alt="" class="movie-list-item-img">
+              <span class="movie-list-item-title">Star Wars: The Bad Batch</span>
+              <p class="movie-list-item-desc">Follow the elite and experimental Clones of the Bad Batch as they find their way in a rapidly changing galaxy...</p>
+              <button class="movie-list-item-button"> <a href="https://sflix.to/tv/free-star-wars-the-bad-batch-hd-69684"> <i class="fas fa-play"></i> Watch now </a> </button>
+            </div>
+            <div class="movie-list-item">
+              <img src="https://img.sflix.to/xxrz/250x400/224/1c/63/1c636a993e9afe6c01543ba146084952/1c636a993e9afe6c01543ba146084952.jpg" alt="" class="movie-list-item-img">
+              <span class="movie-list-item-title">Run The Burbs</span>
+              <p class="movie-list-item-desc">Run the Burbs follows the Phams, a young, bold Vietnamese-South Asian-Canadian family taking a different...</p>
+              <button class="movie-list-item-button"> <a href="https://sflix.to/tv/free-run-the-burbs-hd-76114"> <i class="fas fa-play"></i> Watch now </a></button>
+            </div>
+            <div class="movie-list-item">
+              <img src="https://img.sflix.to/xxrz/250x400/224/1d/5c/1d5c1ea016eb30eaae777d75d60c932a/1d5c1ea016eb30eaae777d75d60c932a.jpg" alt="" class="movie-list-item-img">
+              <span class="movie-list-item-title">New Amsterdam</span>
+              <p class="movie-list-item-desc">Dr. Max Goodwin, the hospital's newest medical director, sets out to tear up the bureaucracy and provide exceptional care.</p>
+              <button class="movie-list-item-button"> <a href="https://sflix.to/tv/free-new-amsterdam-hd-39333"> <i class="fas fa-play"></i> Watch now </a></button>
+            </div>
+          </div>
+          <i class="fas fa-chevron-right arrow"></i>
+        </div>
+      </div>
+      <div class="movie-list-container">
+        <h1 class="movie-list-title" id="popular" >Coming Soon</h1>
+        <div class="movie-list-wrapper">
+          <div class="movie-list">
+            <div class="movie-list-item">
+              <img src="https://img.sflix.to/xxrz/250x400/224/d1/25/d12518ca1bdce5c0629de62dffc97dd4/d12518ca1bdce5c0629de62dffc97dd4.jpg" alt="" class="movie-list-item-img">
+              <span class="movie-list-item-title">Captain Marvel 2</span>
+              <p class="movie-list-item-desc">The sequel to Captain Marvel (2019).</p>
+              <button class="movie-list-item-button"> <a href="https://sflix.to/movie/free-captain-marvel-2-hd-66673"> <i class="fas fa-play"></i> Watch now </a></button>
+            </div>
+            <div class="movie-list-item">
+              <img src="https://img.sflix.to/xxrz/250x400/224/9e/7d/9e7d89e54893692324df25bd8908d262/9e7d89e54893692324df25bd8908d262.jpg" alt="" class="movie-list-item-img">
+              <span class="movie-list-item-title">John Wick 4</span>
+              <p class="movie-list-item-desc">With the price on his head ever increasing, John Wick uncovers a path to defeating The High Table. But before he...</p>
+              <button class="movie-list-item-button"> <a href="https://sflix.to/movie/free-john-wick-chapter-4-hd-90163"> <i class="fas fa-play"></i> Watch now </a></button>
+            </div>
+            <div class="movie-list-item">
+              <img src="https://img.sflix.to/xxrz/250x400/224/01/a5/01a5ef8e1cd180e6d090def84c53e0f0/01a5ef8e1cd180e6d090def84c53e0f0.jpg" alt="" class="movie-list-item-img">
+              <span class="movie-list-item-title">Shazam! Fury of the Gods</span>
+              <p class="movie-list-item-desc">Billy Batson and his foster siblings, who transform into superheroes by saying "Shazam!", are forced to get back into...</p>
+              <button class="movie-list-item-button"> <a href="https://sflix.to/movie/free-shazam-fury-of-the-gods-hd-91642"> <i class="fas fa-play"></i> Watch now </a></button>
+            </div>
+            <div class="movie-list-item">
+              <img src="https://img.sflix.to/xxrz/250x400/224/c2/f2/c2f26037516d25d4d990d8b609a65dea/c2f26037516d25d4d990d8b609a65dea.jpg" alt="" class="movie-list-item-img">
+              <span class="movie-list-item-title">The Little Mermaid</span>
+              <p class="movie-list-item-desc">The youngest of King Triton’s daughters, and the most defiant, Ariel longs to find out more about the world beyond the...</p>
+              <button class="movie-list-item-button"> <a href="https://sflix.to/movie/free-the-little-mermaid-hd-88243"> <i class="fas fa-play"></i> Watch now </a></button>
+            </div>
+            <div class="movie-list-item">
+              <img src="https://img.sflix.to/xxrz/250x400/224/f6/7a/f67abf7492d56b8652a7fa5f36a61c74/f67abf7492d56b8652a7fa5f36a61c74.jpg" alt="" class="movie-list-item-img">
+              <span class="movie-list-item-title">Guardians of the Galaxy Volume 3</span>
+              <p class="movie-list-item-desc">The third film based on Marvel's Guardians of the Galaxy.</p>
+              <button class="movie-list-item-button"> <a href="https://sflix.to/movie/free-guardians-of-the-galaxy-vol-3-hd-12459"> <i class="fas fa-play"></i> Watch now </a></button>
+            </div>
+            <div class="movie-list-item">
+              <img src="https://img.sflix.to/xxrz/250x400/224/9f/a7/9fa7d3e63e81306ccfb4c3290c8537c1/9fa7d3e63e81306ccfb4c3290c8537c1.jpg" alt="" class="movie-list-item-img">
+              <span class="movie-list-item-title">Waffles + Mochi's Restaurant</span>
+              <p class="movie-list-item-desc">Food-loving friends Waffles and Mochi get cooking in their very own restaurant, where hungry customers come to feast on...</p>
+              <button class="movie-list-item-button"> <a href="https://sflix.to/tv/free-waffles-mochis-restaurant-hd-91744"> <i class="fas fa-play"></i> Watch now </a></button>
+            </div>
+            <div class="movie-list-item">
+              <img src="https://img.sflix.to/xxrz/250x400/224/41/f4/41f4ea1916eda950765bc004bab39334/41f4ea1916eda950765bc004bab39334.jpg" alt="" class="movie-list-item-img">
+              <span class="movie-list-item-title">Transformers: Rise of the Beasts</span>
+              <p class="movie-list-item-desc">A ‘90s globetrotting adventure that introduces the Maximals, Predacons, and Terrorcons to the existing battle on earth...</p>
+              <button class="movie-list-item-button"> <a href="https://sflix.to/movie/free-transformers-rise-of-the-beasts-hd-91042"> <i class="fas fa-play"></i> Watch now </a></button>
+            </div>
+            <div class="movie-list-item">
+              <img src="https://img.sflix.to/xxrz/250x400/224/7c/b5/7cb5d526f8a37250fe77bd728099ad10/7cb5d526f8a37250fe77bd728099ad10.jpg" alt="" class="movie-list-item-img">
+              <span class="movie-list-item-title">Unofficial Science Of Home Alone</span>
+              <p class="movie-list-item-desc">James Acaster and Guz Khan investigate the booby traps from the film Home Alone. Also features Alex Brooker.</p>
+              <button class="movie-list-item-button"> <a href="https://sflix.to/movie/free-the-unofficial-science-of-home-alone-hd-91690"> <i class="fas fa-play"></i> Watch now </a></button>
+            </div>
+            <div class="movie-list-item">
+              <img src="https://img.sflix.to/xxrz/250x400/224/c3/2a/c32af268ee822f9a3de41a8c45773083/c32af268ee822f9a3de41a8c45773083.jpg" alt="" class="movie-list-item-img">
+              <span class="movie-list-item-title">Snacks vs Chef</span>
+              <p class="movie-list-item-desc">Twelve chefs channel their inner food scientists to re-create classic snacks and invent their own original treats...</p>
+              <button class="movie-list-item-button"> <a href="https://sflix.to/tv/free-snack-vs-chef-hd-91048"> <i class="fas fa-play"></i> Watch now </a></button>
+            </div>
+            <div class="movie-list-item">
+              <img src="https://img.sflix.to/xxrz/250x400/224/91/2d/912d609a2d21253a434c86b554f2c7d4/912d609a2d21253a434c86b554f2c7d4.jpg" alt="" class="movie-list-item-img">
+              <span class="movie-list-item-title">Ant-Man: Quantumania</span>
+              <p class="movie-list-item-desc">Superhero duo Scott Lang and Hope Van Dyne, together with Hope’s parents Hank Pym and Janet Van Dyne...</p>
+              <button class="movie-list-item-button"> <a href="https://sflix.to/movie/free-ant-man-and-the-wasp-quantumania-hd-89518"> <i class="fas fa-play"></i> Watch now </a></button>
+            </div>
+          </div>
+          <i class="fas fa-chevron-right arrow"></i>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <script src="app.js"></script>
+  
+</body>
+</html>
